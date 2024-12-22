@@ -21,3 +21,21 @@ else{
 
 
 // Iteration 3: Loops
+let driverName = "John"; 
+
+let spacedName = ""; 
+for (let i = 0; i < driverName.length; i++) {
+  spacedName += driverName[i].toUpperCase(); 
+  if (i < driverName.length - 1) {
+    spacedName += " "; 
+  }
+}
+console.log(spacedName);
+
+if (hacker1 < hacker2) {
+    console.log("The driver's name goes first.");
+  } else if (hacker1 > hacker2) {
+    console.log("Yo, the navigator goes first definitely.");
+  } else {
+    console.log("What?! You both have the same name?");
+  }
